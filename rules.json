@@ -1,0 +1,6 @@
+{
+    "SQL Injection": ["SELECT", "UNION", "DROP TABLE", "OR 1=1"],
+    "Path Traversal": ["../", "/etc/passwd", "C:\\Windows"],
+    "XSS Attempt": ["<script>", "alert(", "onerror="],
+    "Malicious Command": ["net user", "powershell", "chmod +x"]
+}
